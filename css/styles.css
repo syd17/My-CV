@@ -1,0 +1,149 @@
+body {
+  font-family: "Montserrat";
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: dotted;
+  border-width: 8px 0 0 0;
+  width: 10%;
+}
+
+a {
+      text-decoration:none;
+   }
+
+.icon {
+  margin: 0 2% 0 0;
+}
+
+#header, #contact, #education, #skill, #footer {
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title section */
+#header {
+  background-color: #1fab89;
+  color: #fff;
+}
+
+/* Profile section */
+.profile {
+  padding: 2% 15%;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 100px;
+  height: 125px;
+  margin: 10px;
+}
+
+.profile-h2 {
+  font-weight: 700;
+}
+
+.profile-p {
+  font-weight: 500;
+}
+
+/* Contact section */
+#contact {
+  padding: 2% 10%;
+  background-color: #62d2a2;
+  color: black;
+}
+
+/* Tooltip */
+#emaildetail, #phonedetail {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+#iconhover:hover #emaildetail {
+  display: block;
+}
+
+#iconhover:hover #phonedetail {
+  display: block;
+}
+
+/* Tooltip */
+/* Education */
+#education {
+  padding: 3% 15%;
+  background-color: #9df3c4;
+}
+
+.education-h3 {
+  padding-bottom: 3%;
+  font-weight: 700;
+}
+
+.edu-item {
+  margin: 1% 0;
+}
+
+/* Experiences */
+#experience {
+  padding: 3% 15%;
+  background-color: #d7fbe8;
+}
+
+.companyName, .exp-h3, .role {
+  font-weight: 700;
+  padding-top: 2%;
+}
+
+.exp-h3 {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.time {
+  text-align: right;
+}
+
+.clients {
+  padding-bottom: 2%;
+}
+
+#skill {
+  padding: 3% 15%;
+  background-color: #9df3c4;
+  text-align: left;
+}
+
+.skillrow {
+  margin: 2%;
+}
+
+#footer {
+  background-color: #1fab89;
+  color: #fff;
+}
+
+.pfooter {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* Media Quarries */
